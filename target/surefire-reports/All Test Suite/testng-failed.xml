@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="Selendrouid Test(failed)">
+    <classes>
+      <class name="io.selendroid.tests.RegisterUserTest">
+        <methods>
+          <include name="startAppoumserver"/>
+          <include name="afterMethod"/>
+          <include name="LaunchApp"/>
+          <include name="registerUserTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- io.selendroid.tests.RegisterUserTest -->
+    </classes>
+  </test> <!-- Selendrouid Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

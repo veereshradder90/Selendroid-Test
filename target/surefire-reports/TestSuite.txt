@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 54.533 s <<< FAILURE! - in TestSuite
+registerUserTest(io.selendroid.tests.RegisterUserTest)  Time elapsed: 14.542 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at io.selendroid.tests.RegisterUserTest.registerUserTest(RegisterUserTest.java:34)
+

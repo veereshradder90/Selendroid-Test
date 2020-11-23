@@ -1,16 +1,14 @@
 <suite name="All Test Suite">
 
-    <!-- <listeners>
-        <listener class-name="io.harness.ui.listeners.Listener" />
-    </listeners> -->
-
-
-
-       <classes>
-           <class name="RegisterUserTest"></class>
-       </classes>
-        <packages>
-            <package name=""/>
-        </packages>
+     <listeners>
+        <listener class-name="io.selendroid.helper.ListenersImplimentation" />
+    </listeners> 
+ <test name="Selendrouid Test">
+    <classes>
+      <class name="io.selendroid.tests.RegisterUserTest"/>
+    </classes>
+  </test>
+ 	
+       
    
 </suite>
