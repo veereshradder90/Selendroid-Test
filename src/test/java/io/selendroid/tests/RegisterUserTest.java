@@ -37,8 +37,7 @@ public class RegisterUserTest extends BaseTest{
 		registrationPage.setPasswordTextbox(passWord);
 		registrationPage.setNameTextbox(name);;
 		registrationPage.clickProgramingLanguagedropdown();
-		
-		//boolean isElementPresent=GenericMethods.waitForPresence(driver, 10, "");
+		registrationPage.clickSelectProgramingLanguagedropdownValue();
 		registrationPage.clickregisterButton();
 		verifyRegisterDetailsPage.clickRegisterUserButton();
 		

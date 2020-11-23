@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34423" started-at="2020-11-23T07:11:36Z" finished-at="2020-11-23T07:12:11Z">
+  <suite name="Default suite" duration-ms="59943" started-at="2020-11-23T14:54:27Z" finished-at="2020-11-23T14:55:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34423" started-at="2020-11-23T07:11:36Z" finished-at="2020-11-23T07:12:11Z">
+    <test name="Default test" duration-ms="59943" started-at="2020-11-23T14:54:27Z" finished-at="2020-11-23T14:55:27Z">
       <class name="io.selendroid.tests.RegisterUserTest">
-        <test-method status="PASS" signature="startAppoumserver()[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="startAppoumserver" is-config="true" duration-ms="7" started-at="2020-11-23T07:11:36Z" finished-at="2020-11-23T07:11:36Z">
+        <test-method status="PASS" signature="startAppoumserver()[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="startAppoumserver" is-config="true" duration-ms="7" started-at="2020-11-23T14:54:27Z" finished-at="2020-11-23T14:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startAppoumserver -->
-        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="LaunchApp" is-config="true" duration-ms="13956" started-at="2020-11-23T07:11:36Z" finished-at="2020-11-23T07:11:50Z">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="LaunchApp" is-config="true" duration-ms="20314" started-at="2020-11-23T14:54:27Z" finished-at="2020-11-23T14:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method status="FAIL" signature="registerUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="registerUserTest" duration-ms="19521" started-at="2020-11-23T07:11:51Z" data-provider="test-data" finished-at="2020-11-23T07:12:10Z">
+        <test-method status="PASS" signature="registerUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="registerUserTest" duration-ms="23604" started-at="2020-11-23T14:54:48Z" data-provider="test-data" finished-at="2020-11-23T14:55:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[veeresh]]>
+                <![CDATA[veereshradder]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[A@21word]]>
+                <![CDATA[abc@xyz.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[a@a.com]]>
+                <![CDATA[A@21word]]>
               </value>
             </param>
             <param index="3">
@@ -38,51 +38,40 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+        <test-method status="FAIL" signature="registerUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="registerUserTest" duration-ms="14731" started-at="2020-11-23T14:55:11Z" data-provider="test-data" finished-at="2020-11-23T14:55:26Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[The element 'By.id: io.selendroid.testapp:id/btnRegisterUser' does not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WLW10-VIRESHNR', ip: '192.168.128.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\Harness API\SelendroidTe..., appPackage: io.selendroid.testapp, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\Harness API\SelendroidTe..., automationName: UiAutomator2, deviceName: Android Emulator, platformName: android, platformVersion: 5.1}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 5.1.1, statBarHeight: 88, takesScreenshot: true, viewportRect: {height: 2304, left: 0, top: 88, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 0b3d70f6-b177-46d2-8758-a275ea84b4ee]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element 'By.id: io.selendroid.testapp:id/btnRegisterUser' does not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WLW10-VIRESHNR', ip: '192.168.128.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\Harness API\SelendroidTe..., appPackage: io.selendroid.testapp, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\Harness API\SelendroidTe..., automationName: UiAutomator2, deviceName: Android Emulator, platformName: android, platformVersion: 5.1}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 5.1.1, statBarHeight: 88, takesScreenshot: true, viewportRect: {height: 2304, left: 0, top: 88, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 0b3d70f6-b177-46d2-8758-a275ea84b4ee
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:40)
 at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(<generated>)
-at io.selendroid.pages.RegistrationPage.clickregisterButton(RegistrationPage.java:51)
-at io.selendroid.tests.RegisterUserTest.registerUserTest(RegisterUserTest.java:42)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.sendKeys(<generated>)
+at io.selendroid.pages.RegistrationPage.setUserNameTextbox(RegistrationPage.java:34)
+at io.selendroid.tests.RegisterUserTest.registerUserTest(RegisterUserTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -110,11 +99,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUserTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="afterMethod" is-config="true" duration-ms="534" started-at="2020-11-23T07:12:10Z" finished-at="2020-11-23T07:12:11Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:io.selendroid.tests.RegisterUserTest@cd2dae5]" name="afterMethod" is-config="true" duration-ms="759" started-at="2020-11-23T14:55:26Z" finished-at="2020-11-23T14:55:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

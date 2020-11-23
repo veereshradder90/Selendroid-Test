@@ -8,7 +8,7 @@
           <include name="startAppoumserver"/>
           <include name="afterMethod"/>
           <include name="LaunchApp"/>
-          <include name="registerUserTest" invocation-numbers="0"/>
+          <include name="registerUserTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- io.selendroid.tests.RegisterUserTest -->
     </classes>

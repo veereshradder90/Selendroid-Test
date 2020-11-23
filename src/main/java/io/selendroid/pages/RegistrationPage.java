@@ -23,7 +23,8 @@ public class RegistrationPage extends BasePOMpage{
     private AndroidElement nameTextbox;
 	@AndroidFindBy(id = "android:id/text1")
     private AndroidElement programingLanguagedropdown;
-	@AndroidFindBy(xpath = "//ListView[text()['Java']")
+	@AndroidFindBy(xpath = "(//*[@class='android.widget.CheckedTextView'])[4]")
+	//@AndroidFindBy(id = "android:id/text1")
     private AndroidElement selectProgramingLanguagedropdownValue;
 	@AndroidFindBy(id = "io.selendroid.testapp:id/btnRegisterUser")
     private AndroidElement registerButton;
