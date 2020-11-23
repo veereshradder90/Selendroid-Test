@@ -1,0 +1,16 @@
+<suite name="All Test Suite">
+
+    <!-- <listeners>
+        <listener class-name="io.harness.ui.listeners.Listener" />
+    </listeners> -->
+
+
+
+       <classes>
+           <class name="RegisterUserTest"></class>
+       </classes>
+        <packages>
+            <package name=""/>
+        </packages>
+   
+</suite>

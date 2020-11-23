@@ -1,0 +1,7 @@
+platformName=Android
+platformVersion=5.1
+deviceName=Android Emulator
+automationName=UiAutomator2
+app = D:\\Harness API\\SelendroidTestApp\\resources\\selendroid-test-app-0.17.0.apk
+fileName=D:\\Harness API\\SelendroidTestApp\\resources\\RegistrationData.xlsx
+sheetName=Sheet1
