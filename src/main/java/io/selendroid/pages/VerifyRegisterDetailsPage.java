@@ -10,14 +10,14 @@ public class VerifyRegisterDetailsPage extends BasePOMpage {
 
 	public VerifyRegisterDetailsPage(AppiumDriver<MobileElement> driver) {
 		super(driver);
-		
+
 	}
-	
 
 	@AndroidFindBy(id = "io.selendroid.testapp:id/buttonRegisterUser")
-    private AndroidElement registerUserButton;
-	
+	private AndroidElement registerUserButton;
+
 	public void clickRegisterUserButton() {
-		 registerUserButton.click();;
+		registerUserButton.click();
+		;
 	}
 }

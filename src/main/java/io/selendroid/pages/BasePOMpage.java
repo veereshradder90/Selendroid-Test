@@ -11,9 +11,9 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class BasePOMpage {
 	public AppiumDriver<MobileElement> driver;
-	   
-    public BasePOMpage(AppiumDriver<MobileElement> driver) {
-        this.driver = driver;
-        PageFactory.initElements(new AppiumFieldDecorator(driver,Duration.ofSeconds(5)), this);
-    }
+
+	public BasePOMpage(AppiumDriver<MobileElement> driver) {
+		this.driver = driver;
+		PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(5)), this);
+	}
 }
